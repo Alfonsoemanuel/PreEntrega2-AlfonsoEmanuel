@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado{
+    margin: -4px;
+    text-align: center;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+nav{
+    padding: 10px;
+    margin-inline: 100px;
+    margin-bottom: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 100px;
+}
+
+.quiensoy{
+    display: block;
+}
+
+h1{
+    margin: 50px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    color: black;
+    text-decoration: underline;
+    margin-block: 20px;
+}
+
+.parrafo{
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.merchandising{
+    display: block;
+}
+
+.productos{
+    padding-left: 500px;
+    padding-top: 50px;
+    margin: 100px;
+    border: solid black;
+}
+
+.fotografia{
+    display: block;
+    padding-left: 500px;
+    margin-right: 500px;
+}
+
+.shows{
+margin-right: 350px;
+margin-block: 100px;
+padding-left: 400px;
+}
+
+.formulario{
+    padding-bottom: 100px;
+    border: 0px;
+    text-align: center;
+}
+
+.formcontrol{
+    padding-inline: 20rem;
+    padding-block: 10px;
+}
+
+.formbotton{
+    padding-inline: 10rem;
+    padding-block: 5px;
+}
+.formbotton1{
+padding-inline: 327px;
+padding-block: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+.redes{
+    margin: -4px;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
