@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: aquamarine;
+    background-color: black;
 }
 
 nav{
@@ -17,10 +17,10 @@ nav{
     margin-inline: 100px;
     margin-bottom: 100px;
     color: white;
-    background-color: black;
+    background-color: yellow;
     text-align: center;
     font-size: 30px;
-    word-spacing: 100px;
+    word-spacing: 10px;
 }
 
 .quiensoy{
@@ -101,7 +101,7 @@ li{
 
 .redes{
     margin: -4px;
-    background-color: black;
+    background-color: yellow;
     text-align: center;
     padding: 20px;
 }
