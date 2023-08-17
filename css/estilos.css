@@ -24,17 +24,27 @@ nav{
 }
 
 .quiensoy{
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+grid-template-areas: 
+"teoagua parrafo ";
+}
+.teoagua{
+    justify-content: center;
+}
+.parrafo{
+    text-align: left;
 }
 
 h1{
     margin: 50px;
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: underline;
 }
 h2{
-    color: black;
+    color: white;
     text-decoration: underline;
     margin-block: 20px;
 }
