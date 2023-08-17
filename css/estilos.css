@@ -33,7 +33,6 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
-
 h2{
     color: black;
     text-decoration: underline;
@@ -41,28 +40,47 @@ h2{
 }
 
 .parrafo{
-    color: black;
+    color: whitesmoke;
     font-size: 15px;
     text-align: left;
     font-family: sans-serif;
     font-weight: bolder;
 }
 
-.merchandising{
-    display: block;
-}
-
 .productos{
-    padding-left: 500px;
-    padding-top: 50px;
-    margin: 100px;
-    border: solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: solid white;
+}
+.remera{
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.buzo{
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.gorra{
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.llavero{
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
 }
 
 .fotografia{
     display: block;
     padding-left: 500px;
     margin-right: 500px;
+}
+.fotos{
+
 }
 
 .shows{
