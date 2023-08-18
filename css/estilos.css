@@ -24,11 +24,9 @@ nav{
 }
 
 .quiensoy{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-grid-template-areas: 
-"teoagua parrafo ";
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .teoagua{
     justify-content: center;
@@ -84,13 +82,14 @@ h2{
     text-align: center;
 }
 
-.fotografia{
-    display: block;
-    padding-left: 500px;
-    margin-right: 500px;
-}
 .fotos{
-
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: 
+"teo1 teo2"
+"teo3 teo4"
+"teo5";
 }
 
 .shows{
