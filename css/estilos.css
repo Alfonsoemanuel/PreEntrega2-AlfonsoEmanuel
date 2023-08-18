@@ -85,11 +85,36 @@ h2{
 .fotos{
 display: grid;
 grid-template-columns: 1fr 1fr;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
 grid-template-areas: 
 "teo1 teo2"
 "teo3 teo4"
 "teo5";
+}
+.teo1{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.teo2{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.teo3{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.teo4{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+}
+.teo5{
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
 }
 
 .shows{
@@ -127,7 +152,7 @@ li{
 }
 
 .redes{
-    margin: -4px;
+    margin: 0;
     background-color: yellow;
     text-align: center;
     padding: 20px;
