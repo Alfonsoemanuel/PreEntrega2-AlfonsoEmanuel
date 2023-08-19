@@ -115,7 +115,7 @@ grid-template-areas:
     padding: 8px;
 }
 
-.shows{
+.recitales{
 margin-right: 350px;
 margin-block: 100px;
 padding-left: 400px;
@@ -141,4 +141,86 @@ li{
     background-color: yellowgreen;
     text-align: center;
     padding: 20px;
+}
+
+@media (max-width: 1024px) {
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        border: solid white;
+    }
+    .fotos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .recitales{
+        margin-block: 0;
+        padding-left: 2px;
+    }
+    .quiensoy{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "parrafo"
+        "teoagua";
+    }
+}
+
+@media (max-width: 768px) {
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        border: solid white;
+    }
+    .fotos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .recitales{
+        margin-block: 0;
+        padding-left: 2px;
+    }
+    .quiensoy{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "parrafo"
+        "teoagua";
+}
+}
+
+@media (max-width: 480px) {
+    .productos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        border: solid white;
+    }
+    .fotos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    .recitales{
+        margin-block: 0;
+        padding-left: 2px;
+    }
+    .quiensoy{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "parrafo"
+        "teoagua";
+    }
+    .formulario{
+        padding-left: 50px;
+    }
 }
