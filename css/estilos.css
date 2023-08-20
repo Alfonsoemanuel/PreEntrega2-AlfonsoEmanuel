@@ -80,15 +80,16 @@ h2{
     text-align: center;
 }
 
-.fotos{
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-areas: 
-"teo1 teo2"
-"teo3 teo4"
-"teo5";
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "teo1 teo2"
+    "teo3 teo4"
+    "teo5";
 }
+
 .teo1{
     justify-content: center;
     text-align: center;
@@ -136,8 +137,7 @@ li{
     display: inline-block;
 }
 
-.redes{
-    margin: 0;
+footer{
     background-color: yellowgreen;
     text-align: center;
     padding: 20px;
@@ -150,10 +150,65 @@ li{
         grid-template-rows: 1fr;
         border: solid white;
     }
-    .fotos{
+    .remera{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .buzo{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .llavero{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .gorra{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+    .llavero{
+        width: 700px;
+        height: 800px;
+        margin-top: 15px;
+    }
+
+    .galeria{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "teo1 teo2"
+        "teo3 teo4"
+        "teo6";
+    }
+    .teo1{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo2{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo3{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo4{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo5{
+        width: 500px;
+        height: 500px;
+        margin-top: 15px;
     }
     .recitales{
         margin-block: 0;
@@ -166,6 +221,11 @@ li{
         grid-template-areas: 
         "parrafo"
         "teoagua";
+    }
+    .teoagua{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
     }
 }
 
@@ -176,10 +236,57 @@ li{
         grid-template-rows: 1fr;
         border: solid white;
     }
-    .fotos{
+    .remera{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .buzo{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .gorra{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .llaver{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+
+    .galeria{
+        padding-left: 25px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .teo1{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo2{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo3{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo4{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
+    }
+    .teo5{
+        width: 700px;
+        height: 500px;
+        margin-top: 15px;
     }
     .recitales{
         margin-block: 0;
@@ -192,26 +299,106 @@ li{
         grid-template-areas: 
         "parrafo"
         "teoagua";
-}
+    }
+    .teoagua{
+    width: 600px;
+    height: 500px;
+    margin-top: 15px;
+    }
 }
 
 @media (max-width: 480px) {
+    .encabezado{
+        width: 450px;
+        height: 300px;
+    }
     .productos{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         border: solid white;
     }
-    .fotos{
+    .remera{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .buzo{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .gorra{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .llavero{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .galeria{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
-    
+    .teo1{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .teo2{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .teo3{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .teo4{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+    .teo5{
+        width: 400px;
+        height: 300px;
+        margin-top: 15px;
+    }
+
     .recitales{
         margin-block: 0;
         padding-left: 2px;
     }
+    .velez{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }
+    .colon{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }    
+    .flores{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }
+        .opera{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }
+        .vorterix{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+    }
+
     .quiensoy{
         display: grid;
         grid-template-columns: 1fr;
@@ -219,6 +406,11 @@ li{
         grid-template-areas: 
         "parrafo"
         "teoagua";
+    }
+    .teoagua{
+        width: 400px;
+        height: 400px;
+        margin-top: 15px;
     }
     .formulario{
         padding-left: 50px;
