@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-.encabezado{
-    margin: -4px;
-    text-align: center;
-}
-
 body{
     background-color: black;
 }
@@ -21,10 +16,13 @@ nav{
     word-spacing: 10px;
 }
 
+.logo{
+    text-align: center;
+}
 .quiensoy{
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 .teoagua{
     justify-content: center;
