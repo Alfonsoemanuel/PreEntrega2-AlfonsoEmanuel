@@ -83,7 +83,7 @@ h2{
 .galeria{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     "teo1 teo2"
     "teo3 teo4"
