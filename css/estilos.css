@@ -41,6 +41,7 @@ h2{
     color: white;
     text-decoration: underline;
     margin-block: 20px;
+    text-align: center;
 }
 
 .parrafo{
@@ -50,29 +51,48 @@ h2{
     font-family: sans-serif;
     font-weight: bolder;
 }
-
+.merchandising{
+    margin: 10px;
+    padding-left: 20px;
+}
 .productos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
     border: solid white;
 }
 .remera{
+    padding: 10px;
     border: 2px solid white;
     justify-content: center;
     text-align: center;
 }
 .buzo{
+    padding: 10px;
     border: 2px solid white;
     justify-content: center;
     text-align: center;
 }
 .gorra{
+    padding: 10px;
     border: 2px solid white;
     justify-content: center;
     text-align: center;
 }
 .llavero{
+    padding: 10px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.campera{
+    padding: 10px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+}
+.vinilo{
+    padding: 10px;
     border: 2px solid white;
     justify-content: center;
     text-align: center;
