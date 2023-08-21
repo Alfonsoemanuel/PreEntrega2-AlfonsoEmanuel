@@ -136,9 +136,24 @@ li{
 }
 
 footer{
-    background-color: yellowgreen;
     text-align: center;
+    background-color: yellowgreen;
     padding: 20px;
+}
+.redes{
+    align-items: center;
+}
+.facebook{
+    padding-inline: 50px;
+}
+.instagram{
+    padding-left: 50px;
+}
+.spotyfi{
+    padding-inline: 50px;
+}
+.tiktok{
+    padding-right: 60px;
 }
 
 @media (max-width: 1024px) {
@@ -212,6 +227,31 @@ footer{
         margin-block: 0;
         padding-left: 2px;
     }
+    .velez{
+        width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }
+    .colon{
+        width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }    
+    .flores{
+        width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }
+        .opera{
+            width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }
+        .vorterix{
+            width: 1000px;
+        height: 400px;
+        margin-top: 15px;
+    }
     .quiensoy{
         display: grid;
         grid-template-columns: 1fr;
@@ -224,6 +264,28 @@ footer{
         width: 700px;
         height: 500px;
         margin-top: 15px;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "facebook instagram"
+        "spotyfi tiktok";
+    }
+    .facebook{
+        padding-left: 10px;
+    }
+    .instagram{
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+    .spotyfi{
+        padding-left: 10px;
+    }
+    .tiktok{
+        padding-left: 10px;
     }
 }
 
@@ -286,10 +348,37 @@ footer{
         height: 500px;
         margin-top: 15px;
     }
+
     .recitales{
         margin-block: 0;
-        padding-left: 2px;
+        padding-left: 10px;
     }
+    .velez{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }
+    .colon{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }    
+    .flores{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }
+        .opera{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }
+        .vorterix{
+        width: 725px;
+        height: 400px;
+        margin-top: 15px;
+    }
+
     .quiensoy{
         display: grid;
         grid-template-columns: 1fr;
@@ -302,6 +391,27 @@ footer{
     width: 600px;
     height: 500px;
     margin-top: 15px;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "facebook instagram"
+        "spotyfi tiktok";
+    }
+    .facebook{
+        padding-left: 10px;
+    }
+    .instagram{
+        padding-left: 15px;
+    }
+    .spotyfi{
+        padding-left: 10px;
+    }
+    .tiktok{
+        padding-left: 10px;
     }
 }
 
@@ -411,6 +521,27 @@ footer{
         margin-top: 15px;
     }
     .formulario{
-        padding-left: 50px;
+        padding-inline: 5px;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "facebook instagram"
+        "spotyfi tiktok";
+    }
+    .facebook{
+        padding-left: 10px;
+    }
+    .instagram{
+        padding-left: 15px;
+    }
+    .spotyfi{
+        padding-left: 10px;
+    }
+    .tiktok{
+        padding-left: 10px;
     }
 }
